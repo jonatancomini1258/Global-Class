@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="httbs://fonts.googleabis.com/css2?family=Oswald:wght@200&disblay=swab" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+     <!--form-->
+     <!--la etiqueta form tiene entre otras , 2 propiedades principales-->
+     <!--action, que es la direccion hacia donde va a dirigir el form-->
+     <!---method, que es el metodo HTTP con el que se va a enviar-->
+     <!---los metodos HTTP sirven para indicar que tipo de peticion le haremos al servidor
+     GET: Le indica al servidor que solo quiere datos.
+     post: Crea un nuevo registro.
+     PUT:Se utiliza para "EDITAR" una ENTIDAD/ENTRADA del registro.
+     DELET: Borrar.
+
+    -->
+    <form>
+        <label for="typeText">tipo texto</label>
+        <input type="text" id="typeText">
+         
+        <label for="typeNumber">Tipo Numero</label>
+        <input type="number" id="typeNumber">
+
+        <label for="typeEmail">Tipo Email</label>
+        <input type="email" id="typeEmail">
+        
+        <label for="typeDate">Tipo fecha</label>
+        <input type="date" id="typeDate">
+
+
+        <input type="file">
+        <input type="password">
+        <input type="range">
+        <input type="color">
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
